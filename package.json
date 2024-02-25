@@ -1,12 +1,14 @@
 {
   "name": "web-cv",
   "version": "0.1.0",
+  "homepage": "http://steimel64.github.io/william-steimel-cv",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build -b master"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
