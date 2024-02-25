@@ -94,7 +94,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="text-pretty font-mono text-xs text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -132,7 +132,20 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                {typeof work.description === "string" ? (
+                    <p>{work.description}</p>
+                  ) : (
+                    work.description?.map((desc) => {
+                      return (
+                        <p key={desc} className="mb-1">
+                          <span className="mr-2">
+                            {"•"}
+                          </span>
+                          {desc}
+                        </p>
+                      );
+                    })
+                  )}
                 </CardContent>
               </Card>
             );
@@ -168,7 +181,7 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
+          <h2 className="text-xl font-bold">Other Achievements</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
@@ -177,9 +190,12 @@ export default function Page() {
                   title={project.title}
                   description={project.description}
                   tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
+                  link={project.link}
                 />
+                
               );
+
+              
             })}
           </div>
         </Section>

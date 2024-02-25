@@ -1,278 +1,218 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
+  GSKLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "William Steimel",
+  initials: "WS",
+  location: "Tokyo, Japan",
+  locationLink: "https://www.google.com/maps/place/Tokyo/@35.6629508,139.7202828,14.75z/data=!4m6!3m5!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6764225!4d139.650027!16zL20vMDdkZms?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Full Stack Data Scientist | Microsoft Certified: Azure Data Scientist Associate | Signate Master | JLPT N2",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Data Science technical lead I have a passion for developing end-to-end AI solutions. My journey has been shaped by hands-on experience across diverse industries from financial services to Pharma, where I’ve harnessed data-driven strategies, embraced agile methodologies, and provided mentorship to drive meaningful change. Whether it’s wrangling data, designing models, or deploying solutions, I thrive on the entire stack. My track record? Delivering immediate bottom line impact through production-grade AI systems aligned to business strategy.",
+  avatarUrl: "https://steimel64.github.io/SteimelSite/resources/img/profile.jpeg",
+  personalWebsiteUrl: "steimel64.github.io",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "steimel65@gmail.com",
+    tel: "+07042825179",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/steimel64",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/steimelw/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/WilliamSteimel/",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Sophia University",
+      degree: "Master of Science in Green Science and Engineering, Geospatial Data Analysis/Machine Learning: Mext Scholarship",
+      start: "2017",
+      end: "2019",
+    },
+    {
+      school: "United Nations University",
+      degree: "UNU-IAS Joint Diploma in Sustainability Science",
+      start: "2017",
+      end: "2019",
+    },
+    {
+      school: "Felician University",
+      degree: "Bachelor of Science in Business Administration, Minor: Global Peace and Justice Studies",
+      start: "2010",
+      end: "2015",
+    },
+    {
+      school: "Kansai Gaidai University",
+      degree: "Asian Studies Program, Study Abroad for two semesters",
+      start: "2012",
+      end: "2013",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "GSK",
+      link: "https://www.gsk.com/en-gb/",
+      badges: ["Technical Lead"],
+      title: "Senior Data Scientist → Principal Data Scientist (Global Associate Director)",
+      logo: GSKLogo,
+      start: "2024",
+      end: "2022",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        ["Spearheaded the development and oversight of the code base for Commercial Pharma AI Systems in Japan and globally for a team of around 15 internal/third party data engineers and data scientists.",
+         "Deployed and scaled MVP fieldforce Omnichannel Decisioning AI engine into a uniform code base, supporting cross-brand usage from 0 to approximately 2000 users, while significantly reducing overall technical resource costs.",
+         "Led the first delivery of an internal AI engine with a team, saving around £1.5 million in previously outsourced delivery costs.",
+         "Successfully delivered multiple ML system deployments in the Omnichannel Decisioning Engine contributing to near double digit impact across all priority brands",
+         "Reduced vendor lock on existing third party and upskilled a team of around 15 new internal data scientists and engineers to take over the work for smoother, high-quality delivery.",
+         "Served as the single point of accountability for requests—from raw data to UI layer—interfacing with the business in Japanese.",
+         "Fostered a culture of knowledge sharing and continuous learning to equip new members with essential Japan Pharma and technical expertise.",
+         "Supported development of multiple successful PoCs thereby promoting interest in genAI and securing significant funding across the organization.",
+        ]
+      },
+    {
+      company: "KPMG Ignition Tokyo",
+      link: "https://kpmg.com/jp/en/home/about/kit.html",
+      badges: [],
+      title: "Data Scientist",
+      logo: GSKLogo,
+      start: "2019",
+      end: "2022",
+      description:
+      ['Reduced 15-25 hours of manual development work per document layout to one UI click, through development of scalable Azure Machine Learning Pipelines for self-service training of layout based NER models for extraction of key-value pairs from financial documents.', 
+       'Utilized Scrapy web scraping and crawling framework and developed reusable ingestion scripts on over 20 Japanese open datasets for KPMG’s global Signals Repository platform.',
+       'Developed the initial company wide labeling process for OCR documents and supervised the quality of annotators on the data labeling team for over 1500 financial document PDFs in Japanese.',
+       'Maintained code quality and documentation of pipelines and software libraries for easier onboarding of new members.',
+       'Designed and developed configuration based excel extraction and spreadsheet analysis library with open source libraries Pandas/Openpyxl/xlrd for ingestion of real estate property management reports and other related documents.',
+       'Designed, planned, and implemented six generic reusable python libraries utilized across KPMGs document ingestion platforms.',
+       'Implemented generic feature extraction functions on polygon shape data utilizing vector and raster data. Functions contributed to geoscaler python library for scaling geospatial data between geographical levels.',
+       'Developed scenario based simulation system with Streamlit and Docker to forecast profit loss and cash flow of buildings in REIT portfolio using accounting and real estate domain knowledge.',
+    ]
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
+      company: "Lombard Inc.",
+      link: "https://lombard.co.jp/",
+      badges: [],
+      title: "Machine Learning Specialist",
+      logo: GSKLogo,
+      start: "2018",
+      end: "2019",
+      description:
+        ["Analyzed data from internal affiliate marketing application to get insight into partner behavior and develop recommender system."]
+    },
+    {
+      company: "ADP",
+      link: "https://www.adp.com/",
+      badges: [],
+      title: "Intern → Infrastructure & Operations Analyst → IT Service Manager",
+      logo: GSKLogo,
       start: "2015",
-      end: "2021",
+      end: "2017",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        ["Responsible for management of overall quality of IT Service Areas including Data Center Site Mgmt, IT Hosting Ops, Critical Incident Response Team, Enterprise Change Control, and Mainframe",
+         "Analyzed budgets totaling millions of dollars for technical projects to ensure proper allocation of resources",
+         "Responsible for implementing reporting automation and statistical analysis to facilitate process optimization, capacity/demand forecasting, service level management, and audit compliance"],
     },
   ],
   skills: [
+    "Python",
+    "Applied Machine Learning",
+    "LightGBM",
+    "MLOps",
+    "Omni-Channel Marketing",
+    "Scrum/Agile",
+    "Data Visualization",
+    "Pandas",
+    "NumPy",
+    "PySpark",
+    "NLP",
+    "LangChain",
+    "Azure DataBricks",
+    "Azure ML",
+    "Azure",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "git"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Iida Group Holdings- Saitama Land Price Estimation Challenge",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Competitive Machine Learning"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      description: "Built model to predict housing prices in Saitama, Signate Bronze Medal Rank 98/593",
+      link: "https://signate.jp/competitions/162"
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "JR East - Train Delay Prediction Challenge",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Competitive Machine Learning"
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
+      description: "Built model to predict Train Delay on JR East lines, Signate Gold Medal Rank 10/442",
+      link: "https://signate.jp/competitions/363"
     },
     {
-      title: "Evercast",
+      title: "Japan Exchange Group- Algorithmic Trading with News Data",
       techStack: [
-        "Lead Frontend Developer",
+        "Competitive Machine Learning"
+      ],
+      description: "Built model to predict Stock prices with Japanese news data, Signate Silver Medal Rank 12/443",
+      link: "https://signate.jp/competitions/443"
+    },
+    {
+      title: "Intelligent Preprocessing for OCR Applications",
+      techStack: [
+        "Patent"
+      ],
+      description: "KPMG Ignition Tokyo, PCT/JP2020/043680",
+      link: "https://patents.google.com/patent/WO2022113171A1/en"
+    },
+    {
+      title: "Excel Extractor",
+      techStack: [
+        "Patent"
+      ],
+      description: "KPMG Ignition Tokyo, PCT/JP2021/021247",
+      link: "https://patents.google.com/patent/WO2022215276A1/en?oq=PCT%2fJP2021%2f021247"
+    },
+    {
+      title: "An Auto-ML, Evolutionary approach to Model Based Data Extraction for financial documents of varying format",
+      techStack: [
+        "Patent"
+      ],
+      description: "KPMG Ignition Tokyo, PCT/JP2021/035333",
+      link: "https://patents.google.com/patent/WO2023047570A1/en?oq=PCT%2fJP2021%2f035333"
+    },
+    {
+      title: "Microsoft Certified Azure Data Scientist Associate",
+      techStack: [
+        "Certification"
+      ],
+      description: "Applying data science and machine learning to implement and run machine learning workloads on Azure Cloud",
+      link: "https://www.credly.com/badges/defe25e0-7a77-4300-85dc-819a9e0758cc/linked_in"
+    },
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+    
+    {
+      title: "Helsinki University- Full Stack Open",
+      techStack: [
+        "Certification"
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      description: "Deep Dive Into Modern Web Development course covering React, Redux, Node.js, MongoDB, GraphQL and TypeScript",
+      link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/7cb0dac44c849774ff5879c0e73c4153"
     },
   ],
 } as const;
