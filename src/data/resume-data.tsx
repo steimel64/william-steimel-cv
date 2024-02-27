@@ -68,8 +68,8 @@ export const RESUME_DATA = {
       badges: ["Technical Lead"],
       title: "Senior Data Scientist → Principal Data Scientist (Global Associate Director)",
       logo: GSKLogo,
-      start: "2024",
-      end: "2022",
+      start: "2022",
+      end: "2024",
       description:
         ["Spearheaded the development and oversight of the code base for Commercial Pharma AI Systems in Japan and globally for a team of around 15 internal/third party data engineers and data scientists.",
          "Deployed and scaled MVP fieldforce Omnichannel Decisioning AI engine into a uniform code base, supporting cross-brand usage from 0 to approximately 2000 users, while significantly reducing overall technical resource costs.",
