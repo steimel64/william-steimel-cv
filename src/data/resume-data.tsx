@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "Full Stack Data Scientist | Microsoft Certified: Azure Data Scientist Associate | Signate Master | JLPT N2",
   summary:
     "As a Data Science technical lead I have a passion for developing end-to-end AI solutions. My journey has been shaped by hands-on experience across diverse industries from financial services to Pharma, where I’ve harnessed data-driven strategies, embraced agile methodologies, and provided mentorship to drive meaningful change. Whether it’s wrangling data, designing models, or deploying solutions, I thrive on the entire stack. My track record? Delivering immediate bottom line impact through production-grade AI systems aligned to business strategy.",
-  avatarUrl: "https://steimel64.github.io/SteimelSite/resources/img/profile.jpeg",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGMJt7GHe-MWg/profile-displayphoto-shrink_800_800/B56ZSN9kWBHwAo-/0/1737548515887?e=1750896000&v=beta&t=K-mivqkH1qw5NSqw6rTsHzeowpmkWaH9bZo9rn7_pUM",
   personalWebsiteUrl: "steimel64.github.io",
   contact: {
     email: "steimel65@gmail.com",
@@ -69,16 +69,17 @@ export const RESUME_DATA = {
       title: "Senior Data Scientist → Principal Data Scientist (Global Associate Director)",
       logo: GSKLogo,
       start: "2022",
-      end: "2024",
+      end: "2025",
       description:
-        ["Spearheaded the development and oversight of the code base for Commercial Pharma AI Systems in Japan and globally for a team of around 15 internal/third party data engineers and data scientists.",
-         "Deployed and scaled MVP fieldforce Omnichannel Decisioning AI engine into a uniform code base, supporting cross-brand usage from 0 to approximately 2000 users, while significantly reducing overall technical resource costs.",
-         "Led the first delivery of an internal AI engine with a team, saving around £1.5 million in previously outsourced delivery costs.",
-         "Successfully delivered multiple ML system deployments in the Omnichannel Decisioning Engine contributing to near double digit impact across all priority brands",
-         "Reduced vendor lock on existing third party and upskilled a team of around 15 new internal data scientists and engineers to take over the work for smoother, high-quality delivery.",
-         "Served as the single point of accountability for requests—from raw data to UI layer—interfacing with the business in Japanese.",
-         "Fostered a culture of knowledge sharing and continuous learning to equip new members with essential Japan Pharma and technical expertise.",
-         "Supported development of multiple successful PoCs thereby promoting interest in genAI and securing significant funding across the organization.",
+        [
+         "Led the technical development and oversight of Commercial Pharma AI systems in Japan and globally, directing a team of 8 engineers and data scientists in executing their work.",
+         "Architected and launched a next-gen ML and data engineering platform on Databricks, optimizing automation and ML model deployment. Reduced pipeline runtimes by 80%, enabling daily automation and saving ~$100K annually in compute and labor costs.",
+         "Engineered an agentic generative AI web app using React, Next.js, TypeScript, Python, FastAPI, and AI content generation APIs, leading end-to-end development and enhancing global content generation capabilities.",
+         "Deployed and scaled an MVP Omnichannel Decisioning AI engine, expanding usage from 0 to ~2000 users across multiple brands and markets. Delivered multiple ML system deployments, driving significant impact across priority brands while reducing technical resource costs and saving £1.5M in outsourcing.",
+         "Served as the key point of contact for data requests, interfacing with business stakeholders in Japanese, prioritizing tasks, and facilitating agile processes as Scrum Master to ensure timely and high-quality delivery.",
+         "Reduced vendor lock-in by upskilling 4 internal data scientists and engineers for smoother, higher-quality delivery.",
+         "Fostered a knowledge-sharing culture by maintaining comprehensive documentation and best practices, equipping new members with essential Japan Pharma and technical expertise.",
+         "Led the development of multiple successful PoCs, generating interest in genAI and securing significant funding.",
         ]
       },
     {
@@ -92,7 +93,6 @@ export const RESUME_DATA = {
       description:
       ['Reduced 15-25 hours of manual development work per document layout to one UI click, through development of scalable Azure Machine Learning Pipelines for self-service training of layout based NER models for extraction of key-value pairs from financial documents.', 
        'Utilized Scrapy web scraping and crawling framework and developed reusable ingestion scripts on over 20 Japanese open datasets for KPMG’s global Signals Repository platform.',
-       'Developed the initial company wide labeling process for OCR documents and supervised the quality of annotators on the data labeling team for over 1500 financial document PDFs in Japanese.',
        'Maintained code quality and documentation of pipelines and software libraries for easier onboarding of new members.',
        'Designed and developed configuration based excel extraction and spreadsheet analysis library with open source libraries Pandas/Openpyxl/xlrd for ingestion of real estate property management reports and other related documents.',
        'Designed, planned, and implemented six generic reusable python libraries utilized across KPMGs document ingestion platforms.',
@@ -121,14 +121,12 @@ export const RESUME_DATA = {
       end: "2017",
       description:
         ["Responsible for management of overall quality of IT Service Areas including Data Center Site Mgmt, IT Hosting Ops, Critical Incident Response Team, Enterprise Change Control, and Mainframe",
-         "Analyzed budgets totaling millions of dollars for technical projects to ensure proper allocation of resources",
          "Responsible for implementing reporting automation and statistical analysis to facilitate process optimization, capacity/demand forecasting, service level management, and audit compliance"],
     },
   ],
   skills: [
     "Python",
     "Applied Machine Learning",
-    "LightGBM",
     "MLOps",
     "Omni-Channel Marketing",
     "Scrum/Agile",
@@ -137,9 +135,8 @@ export const RESUME_DATA = {
     "NumPy",
     "PySpark",
     "NLP",
-    "LangChain",
-    "Azure DataBricks",
-    "Azure ML",
+    "Agentic AI",
+    "DataBricks",
     "Azure",
     "JavaScript",
     "TypeScript",
@@ -205,7 +202,6 @@ export const RESUME_DATA = {
       link: "https://www.credly.com/badges/defe25e0-7a77-4300-85dc-819a9e0758cc/linked_in"
     },
 
-    
     {
       title: "Helsinki University- Full Stack Open",
       techStack: [
@@ -213,6 +209,14 @@ export const RESUME_DATA = {
       ],
       description: "Deep Dive Into Modern Web Development course covering React, Redux, Node.js, MongoDB, GraphQL and TypeScript",
       link: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/7cb0dac44c849774ff5879c0e73c4153"
+    },
+    {
+      title: "AI Agents Fundamentals- Hugging Face",
+      techStack: [
+        "Certification"
+      ],
+      description: "AI Agent Fundamentals",
+      link: "https://cdn-lfs-us-1.hf.co/repos/f2/34/f2344151f60f6027c436821dc61cf3f27a46435de57df8df50ad02b5acca7c07/23934dff86e9be9989af332f43156b45ed37b04d2eea6bfb512bd1d30c4e73f7?response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025-02-15.png%3B+filename%3D%222025-02-15.png%22%3B&response-content-type=image%2Fpng&Expires=1745344479&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NTM0NDQ3OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2YyLzM0L2YyMzQ0MTUxZjYwZjYwMjdjNDM2ODIxZGM2MWNmM2YyN2E0NjQzNWRlNTdkZjhkZjUwYWQwMmI1YWNjYTdjMDcvMjM5MzRkZmY4NmU5YmU5OTg5YWYzMzJmNDMxNTZiNDVlZDM3YjA0ZDJlZWE2YmZiNTEyYmQxZDMwYzRlNzNmNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=phNYdc69xElJaR4MoFz%7Efbx94UJeOHKeByvvlih87psao-N31g80T7tdiY4Jme9ntG6Amm6k7eVzXeY1CPjNbwTXzNu4SvTTvzkdmvOs67%7EGlNMkkimxcSaIqAbIsq-pYge1lbfaUDiGHfjK-v4eAWSwkVtz3fOQhG9FG9P55TnbM2X68WQEYqdefrlwP09i4duS59jTV5zlFRo-eCAcFmqPPzzayMWj-eYA5zjBXcQ6POCEm61vDykdaOZDYKgkrkBiJJz0VTt0pp2JQwRVCpTISkMrfdcvMgHHEA4YVTb5hUSP2WK7tZ-Lak3KWbzGQtsIcCheP48a0P%7E2YCxyPA__&Key-Pair-Id=K24J24Z295AEI9"
     },
   ],
 } as const;
