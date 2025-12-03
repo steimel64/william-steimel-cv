@@ -9,10 +9,10 @@ export const RESUME_DATA = {
   location: "Tokyo, Japan",
   locationLink: "https://www.google.com/maps/place/Tokyo/@35.6629508,139.7202828,14.75z/data=!4m6!3m5!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6764225!4d139.650027!16zL20vMDdkZms?entry=ttu",
   about:
-    "Full Stack Data Scientist | Microsoft Certified: Azure Data Scientist Associate | Signate Master | JLPT N2",
+    "Full Stack Data Scientist | Signate Master | JLPT N2",
   summary:
     "As a Data Science technical lead I have a passion for developing end-to-end AI solutions. My journey has been shaped by hands-on experience across diverse industries from financial services to Pharma, where I’ve harnessed data-driven strategies, embraced agile methodologies, and provided mentorship to drive meaningful change. Whether it’s wrangling data, designing models, or deploying solutions, I thrive on the entire stack. My track record? Delivering immediate bottom line impact through production-grade AI systems aligned to business strategy.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGMJt7GHe-MWg/profile-displayphoto-shrink_800_800/B56ZSN9kWBHwAo-/0/1737548515887?e=1750896000&v=beta&t=K-mivqkH1qw5NSqw6rTsHzeowpmkWaH9bZo9rn7_pUM",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQGV6HV62LrFQg/profile-displayphoto-crop_800_800/B56ZrlQy5SL4AM-/0/1764782977021?e=1766620800&v=beta&t=ug7fR1jis4_zC5TrZUbc5qwpon95J8F4ewtpNCzMeys",
   personalWebsiteUrl: "steimel64.github.io",
   contact: {
     email: "steimel65@gmail.com",
@@ -72,14 +72,15 @@ export const RESUME_DATA = {
       end: "2025",
       description:
         [
-         "Led the technical development and oversight of Commercial Pharma AI systems in Japan and globally, directing a team of 8 engineers and data scientists in executing their work.",
-         "Architected and launched a next-gen ML and data engineering platform on Databricks, optimizing automation and ML model deployment. Reduced pipeline runtimes by 80%, enabling daily automation and saving ~$100K annually in compute and labor costs.",
-         "Engineered an agentic generative AI web app using React, Next.js, TypeScript, Python, FastAPI, and AI content generation APIs, leading end-to-end development and enhancing global content generation capabilities.",
-         "Deployed and scaled an MVP Omnichannel Decisioning AI engine, expanding usage from 0 to ~2000 users across multiple brands and markets. Delivered multiple ML system deployments, driving significant impact across priority brands while reducing technical resource costs and saving £1.5M in outsourcing.",
-         "Served as the key point of contact for data requests, interfacing with business stakeholders in Japanese, prioritizing tasks, and facilitating agile processes as Scrum Master to ensure timely and high-quality delivery.",
-         "Reduced vendor lock-in by upskilling 4 internal data scientists and engineers for smoother, higher-quality delivery.",
-         "Fostered a knowledge-sharing culture by maintaining comprehensive documentation and best practices, equipping new members with essential Japan Pharma and technical expertise.",
-         "Led the development of multiple successful PoCs, generating interest in genAI and securing significant funding.",
+         "Architected and coded core components of a real-time agentic system for speech monitoring with RAG integration and multimodal analysis, reducing company risk. Led 2 AI engineers and implemented backend/orchestration workflows.",
+         "Built a full MLOps and data platform on Databricks, writing pipelines, automation, and deployment code. Cut runtimes by 80%, enabling daily automation and saving ~$200K annually. Led 4 engineers.",
+         "Deployed and scaled an MVP ML decisioning engine from 0 → ~2,000 users across brands/markets. Implemented model-serving, data, and integration components, reducing outsourcing by £1.5M while leading 4 engineers.",
+         "Engineered a full-stack agentic generative content web app (React/Next.js/TS + Python/FastAPI), contributing to frontend and backend. Supported 3 live generative-AI campaigns with a 4-engineer team.",
+         "Embedded with business teams (Japanese & English) as the primary technical contact, writing production-ready code, prioritizing tasks, and guiding agile delivery as a de facto Scrum Master in high-ambiguity environments.",
+         "Implemented CI/CD pipelines and DevOps workflows across all projects, automating testing, deployment, environment management, and monitoring for fast, reliable ML and full-stack delivery.",
+         "Reduced vendor lock-in by upskilling 4 internal data scientists and engineers through hands-on collaboration on production systems.",
+         "Maintained high-quality documentation and best practices, accelerating onboarding and enabling knowledge transfer across Japan Pharma and engineering teams.",
+         "Led multiple LLM PoCs, implementing prototypes and providing field insights to Product teams to influence roadmap and platform improvements."
         ]
       },
     {
